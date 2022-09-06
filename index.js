@@ -44,7 +44,7 @@ const displayThemeButtons = () => {
     themes.forEach((theme) => {
         const div = document.createElement("div");
         div.className = "theme-btn";
-        div.style.cssText = 
+        div.style.cssText =                                                               //Нужно
         `background: ${theme.background}; width: 25px; height: 25px`;
         btnContainer.appendChild(div);
         div.addEventListener("click", () => setTheme(theme));
